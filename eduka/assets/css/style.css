@@ -672,6 +672,7 @@ label {
   margin-top: 10px;
   margin-bottom: 0;
   position: relative;
+  align-self: center;
 }
 
 .site-title span{
