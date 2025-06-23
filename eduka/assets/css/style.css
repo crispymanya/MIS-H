@@ -866,8 +866,9 @@ label {
 
 .header-top-contact ul {
   display: flex;
+  grid-row: 1;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
 }
 
 .header-top-contact ul li{
@@ -6414,6 +6415,16 @@ label {
   height: 100%;
   opacity: .95;
 }
-
+table td, table th {
+  padding: 15px;
+  line-height: 1.5;
+  vertical-align: top;
+  border: 1px solid hsla(0,0%,50.2%,.5019607843);
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid black;
+}
 
 
