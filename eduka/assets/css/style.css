@@ -6428,4 +6428,46 @@ th, td {
   border: 1px solid black;
 }
 
+/* footer icons */
+.footer-contact li {
+  display: flex;
+  align-items: center;
+}
 
+.footer-contact li i {
+  flex-shrink: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #FDA31B;   /* Same yellow as others */
+  color: #fff;
+  border-radius: 10px 10px 10px 0px;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+
+/* admission page logos */
+.course-tag {
+  position: absolute;
+  right: -15px;
+  top: 15px;
+  background: var(--theme-color2);
+  color: var(--color-white);
+  border-radius: 40px 40px 40px 0;
+  padding: 6px 16px;  /* Increased padding: top/bottom 6px, left/right 16px */
+  margin-bottom: 10px;
+  display: inline-flex;  /* Ensures icon & text align properly */
+  align-items: center;   /* Vertically centers icon and text */
+  gap: 8px;              /* Space between icon and text */
+  box-shadow: var(--box-shadow2);
+  z-index: 1;
+  font-size: 14px;       /* Optional: Adjust text size */
+}
+
+.course-tag i {
+  font-size: 16px;  /* Make the bookmark icon a bit bigger */
+}
