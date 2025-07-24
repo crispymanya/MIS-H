@@ -1964,6 +1964,12 @@ label {
 
 .course-area{
   position: relative;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.course-area.container{
+  padding-top: 20px;
 }
 
 .course-item{
@@ -2784,7 +2790,7 @@ label {
 
 .counter-area {
   position: relative;
-  background-image: url(../img/counter/01.jpg);
+  /* background-image: url(../img/counter/01.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
