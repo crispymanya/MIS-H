@@ -654,9 +654,9 @@ label {
   letter-spacing: 4px;
   font-size: 18px;
   font-weight: 700;
-  color: var(--theme-color2);
+  color: #27456C;
   position: relative;
-  border-bottom: 2px solid var(--theme-color2);
+  border-bottom: 2px solid #27456C;
 }
 
 .site-title-tagline i{
@@ -1563,7 +1563,7 @@ label {
   height: 100%;
   left: -0.5px;
   top: 0;
-  background: rgba(11, 28, 57, .7);
+  background: rgba(11, 28, 57, .7);
   z-index: -1;
 }
 
@@ -1585,13 +1585,13 @@ label {
 
 .hero-single .hero-content .hero-sub-title {
   display: inline-block;
-  color: var(--theme-color2);
+  color: #FDA31B;
   font-size: 25px;
   letter-spacing: 6px;
   font-weight: 800;
   position: relative;
   text-transform: uppercase;
-  border-bottom: 3px solid var(--theme-color2);
+  border-bottom: 3px solid #FDA31B;
 }
 
 .hero-single .hero-content p {
@@ -3150,7 +3150,7 @@ label {
 
 .enroll-area{
   position: relative;
-  background-image: url(../img/enroll/01.jpg);
+  /* background-image: url(../img/enroll/01.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
