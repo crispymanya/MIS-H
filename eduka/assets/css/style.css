@@ -1563,7 +1563,7 @@ label {
   height: 100%;
   left: -0.5px;
   top: 0;
-  background: rgba(11, 28, 57, .7);
+  background: #2c426569;
   z-index: -1;
 }
 
@@ -2230,6 +2230,10 @@ label {
   height: 350px;
 }
 
+.course-area .row.g-4 {
+  justify-content: center; /* Center align cards horizontally */
+  gap: 30px 40px;          /* Row and column spacing */
+}
 
 
 /*====================
