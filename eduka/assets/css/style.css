@@ -6486,3 +6486,18 @@ th, td {
 .course-tag i {
   font-size: 16px;  /* Make the bookmark icon a bit bigger */
 }
+
+.site-title-tagline-style {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #FDA31B;
+  position: relative;
+  border-bottom: 2px solid #FDA31B;
+}
+
+.site-title-tagline-style i{
+  line-height: 0;
+  font-size: 20px;
+}
