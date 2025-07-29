@@ -4401,9 +4401,14 @@ label {
   border-radius: 12px;
 }
 
+.video-area {
+  padding-bottom: 5%;
+}
+
 .video-area .play-btn {
   display: inline-block;
   padding: 0;
+  /* padding-bottom: 20px; */
   height: 75px;
   width: 75px;
   text-align: center;
