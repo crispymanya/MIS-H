@@ -2074,6 +2074,7 @@ label {
 }
 
 .course-title{
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
@@ -6537,3 +6538,33 @@ th, td {
     left: 15px;
   }
 }
+
+
+/* Team */
+.full-team-image {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #ffffff; /* Keep background white */
+}
+
+.full-team-image h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #111; /* Dark text for readability */
+  font-family: 'Poppins', sans-serif;
+}
+
+.full-team-image img {
+  max-width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.full-team-image img:hover {
+  transform: scale(1.02);
+}
+
+
