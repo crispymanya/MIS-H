@@ -6749,3 +6749,21 @@ th, td {
   align-items: stretch;
   /* ensures both image and content fill the container height */
 }
+
+
+/sports/
+.contact-img,
+.contact-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* makes it crop nicely */
+  display: block;
+}
+
+.contact-area .row {
+  align-items: stretch; /* make both columns equal height */
+}
+
+.contact-wrapper {
+  height: 100%;
+}
