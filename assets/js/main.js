@@ -203,6 +203,7 @@ Version         : 1.0
 
 
     // magnific popup init
+    
     $(".popup-gallery").magnificPopup({
         delegate: '.popup-img',
         type: 'image',
